@@ -29,23 +29,12 @@
         "group": "Recipes",
         "pages": [
           "recipes/import-from-url",
-          "recipes/import-from-image",
+          "recipes/create-from-image",
           "recipes/create-manually",
-          "recipes/bulk-import",
-          "recipes/organize"
+          "recipes/bulk-import"
         ]
       },
-      {
-        "group": "Features",
-        "pages": [
-          "features/meal-planner",
-          "features/shopping-lists",
-          "features/cookbooks",
-          "features/pantry-manager",
-          "features/community"
-        ]
-      },
-      {
+{
         "group": "Help",
         "pages": [
           "help/faq",
