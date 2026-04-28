@@ -11,7 +11,7 @@
   "navbar": {
     "primary": {
       "type": "button",
-      "label": "Go To Foryoueats",
+      "label": "Go Back To Foryoueats",
       "href": "https://foryoueats.com/register"
     }
   },
