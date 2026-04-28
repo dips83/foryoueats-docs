@@ -53,7 +53,8 @@
   },
   "logo": {
     "light": "/images/light-avatar-logo-2-512.png",
-    "dark": "/images/avatar-logo-512.png"
+    "dark": "/images/avatar-logo-512.png",
+    "href": "https://foryoueats.com"
   },
   "background": {
     "color": {
