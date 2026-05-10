@@ -32,7 +32,8 @@
           "recipes/create-from-image",
           "recipes/create-manually",
           "recipes/bulk-import",
-          "recipes/cookbooks"
+          "recipes/cookbooks",
+          "recipes/tags"
         ]
       },
 {
