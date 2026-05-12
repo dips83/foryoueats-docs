@@ -33,7 +33,8 @@
           "recipes/create-manually",
           "recipes/bulk-import",
           "recipes/cookbooks",
-          "recipes/tags"
+          "recipes/tags",
+          "recipes/cook-mode"
         ]
       },
 {
