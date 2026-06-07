@@ -31,6 +31,7 @@
           "recipes/import-from-url",
           "recipes/create-from-image",
           "recipes/create-manually",
+          "recipes/edit-delete",
           "recipes/bulk-import",
           "recipes/cookbooks",
           "recipes/tags",
