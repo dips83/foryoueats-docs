@@ -42,6 +42,7 @@
         "group": "Help",
         "pages": [
           "help/faq",
+          "help/lost-recipes",
           "help/contact"
         ]
       }
