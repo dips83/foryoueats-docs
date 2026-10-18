@@ -38,16 +38,28 @@
           "recipes/cook-mode"
         ]
       },
-{
+      {
+        "group": "Account",
+        "pages": [
+          "account/reset-password",
+          "account/lost-recipes"
+        ]
+      },
+      {
         "group": "Help",
         "pages": [
           "help/faq",
-          "help/lost-recipes",
           "help/contact"
         ]
       }
     ]
   },
+  "redirects": [
+    {
+      "source": "/help/lost-recipes",
+      "destination": "/account/lost-recipes"
+    }
+  ],
   "font": {
     "headings": {
       "family": "Figtree"
