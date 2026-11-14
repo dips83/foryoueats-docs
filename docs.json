@@ -2,6 +2,9 @@
   "$schema": "https://mintlify.com/docs.json",
   "name": "Foryoueats",
   "theme": "aspen",
+  "icons": {
+    "library": "lucide"
+  },
   "colors": {
     "primary": "#4a8077",
     "light": "#4a8077",
