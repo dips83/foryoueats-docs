@@ -1,15 +1,15 @@
 ---
 title: "Create a Recipe from a Photo or Image"
-description: "Upload a photo of any recipe — a cookbook page, handwritten card, or screenshot — and Foryoueats converts it into a structured digital recipe using AI."
+description: "Upload up to 5 photos of a recipe (a cookbook page, handwritten card, screenshot or even a finished dish) and Foryoueats turns them into a recipe using AI."
 ---
 
-You can create recipes from physical sources without typing them out by hand. Foryoueats uses AI to read the image and convert it into a fully structured recipe with named fields for ingredients, steps, and more.
+You can create recipes from physical sources without typing them out by hand. Foryoueats uses AI to read your images and fill in the recipe for you: name, servings, times, ingredients and steps.
 
 ## What you can import
 
-<CardGroup cols={3}>
+<CardGroup cols={2}>
   <Card title="Cookbook pages" icon="book-open">
-    Photograph a page from any cookbook or magazine.
+    Photograph a page from any cookbook or magazine. A recipe across two pages? Add both.
   </Card>
   <Card title="Handwritten cards" icon="pencil">
     Snap a photo of a recipe card, even if the handwriting isn't perfect.
@@ -17,27 +17,36 @@ You can create recipes from physical sources without typing them out by hand. Fo
   <Card title="Screenshots" icon="image">
     Upload a screenshot of a recipe from any app or website.
   </Card>
+  <Card title="Dish photos" icon="utensils">
+    Upload a photo of a finished dish and the AI works out the dish and writes ingredients and steps for it.
+  </Card>
 </CardGroup>
+
+You can add up to 5 images of one recipe. Each image can be up to 10MB, in JPG, PNG or WebP format. Several images are combined into a single recipe.
 
 ## How to import
 
 <Steps>
-  <Step title="Open the app">
-    In Foryoueats, click **Create Recipe** and select **Create From Image**.
+  <Step title="Open Create From Image">
+    In Foryoueats, tap the green **+** button (or **Create Recipe**) and select **Create From Image**.
   </Step>
-  <Step title="Upload your image">
-    Click **Choose file** and select a photo from your device, or drag and drop the image into the upload area.
+  <Step title="Add your images">
+    Drop your images into the upload box, or tap it to browse your device. Then tap **Continue**.
   </Step>
   <Step title="Wait for processing">
-    Foryoueats processes the image with AI and extracts the recipe details. This usually takes a few seconds.
+    Foryoueats reads the images with AI and opens the recipe in the Create Recipe form.
   </Step>
   <Step title="Review the result">
-    Check each field — name, ingredients, and steps — to make sure everything was captured correctly.
+    Check each field (name, servings, times, ingredients and steps) to make sure everything was captured correctly. If servings or times weren't written down, the AI estimates them.
   </Step>
   <Step title="Edit and save">
-    Make any corrections in the editor, then click **Save** to add the recipe to your library.
+    Make any corrections, then tap **Create** to add the recipe to your library, or **Save Draft** to finish it later.
   </Step>
 </Steps>
+
+<Note>
+  Your first image becomes the recipe's photo. If that's a cookbook page or recipe card, you may want to swap it for a photo of the food.
+</Note>
 
 <Tip>
   For best results, photograph the recipe in good lighting and make sure the text is in focus. Avoid shadows across the page.
@@ -46,3 +55,11 @@ You can create recipes from physical sources without typing them out by hand. Fo
 <Warning>
   AI extraction is accurate but not perfect. Always review the ingredients and steps before cooking from an imported recipe, especially quantities and measurements.
 </Warning>
+
+## Troubleshooting
+
+<AccordionGroup>
+  <Accordion title="Sorry, we could not generate a recipe from this image.">
+    The AI couldn't find a recipe in your images. Try a clearer, closer photo of the recipe text, or use **Start From Scratch** to type it in.
+  </Accordion>
+</AccordionGroup>

@@ -1,13 +1,23 @@
 ---
 title: "Bulk Import Recipes from Another App"
-description: "Move your recipe library from Cookbook, Plan To Eat, Copy Me That, Paprika, or Recipe Keeper into Foryoueats by exporting from your old app and uploading the file."
+description: "Move your recipe library from Cookbook, Plan To Eat, Copy Me That, Paprika, or Recipe Keeper into Foryoueats, or re-import a Foryoueats export, by uploading one file."
 ---
 
 If you're switching to Foryoueats from another recipe manager, you don't have to start from scratch. Export your recipes from your current app and upload the file to bring your entire library over at once.
 
 <Info>
-  Bulk import preserves your recipe content, including ingredients, steps, and (where supported) images.
+  Bulk import brings across your recipe content, including ingredients, steps, the source link and (where supported) images. Nutrition facts are worked out with AI for every imported recipe.
 </Info>
+
+## Before you start
+
+- Files can be up to 60MB.
+- You can import up to 2,500 recipes at a time.
+- A ZIP file can hold up to 200MB once unzipped.
+
+## Open Bulk Import
+
+Click your avatar in the top right (on a phone, tap **Menu** in the bottom bar) and select **Bulk Import/Export Recipes**. Then pick the app your recipes are coming from.
 
 ## Supported apps
 
@@ -20,7 +30,7 @@ If you're switching to Foryoueats from another recipe manager, you don't have to
         In Cookbook, go to **Settings → Backup / Export** and tap **Backup / export recipes**. Select **YAML files** as the format and tap **Backup**. This will produce a ZIP file.
       </Step>
       <Step title="Upload to Foryoueats">
-        In Foryoueats, click your profile icon in the top right and select **Bulk Import/Export Recipes**. Select your app, click **Choose file**, select your ZIP, and click **Import**.
+        In **Bulk Import/Export Recipes**, select **Cookbook**, tap **Choose a file**, pick your ZIP, and tap **Import**.
       </Step>
       <Step title="Review imported recipes">
         Open **My Recipes** after the import completes to confirm your recipes came through correctly.
@@ -36,7 +46,7 @@ If you're switching to Foryoueats from another recipe manager, you don't have to
         In Plan To Eat, go to **My Account** and scroll down to **Export My Recipes**. Click **Download csv file (spreadsheet)**.
       </Step>
       <Step title="Upload to Foryoueats">
-        In Foryoueats, click your profile icon in the top right and select **Bulk Import/Export Recipes**. Select your app, click **Choose file**, select your CSV, and click **Import**.
+        In **Bulk Import/Export Recipes**, select **Plan To Eat**, tap **Choose a file**, pick your CSV, and tap **Import**.
       </Step>
       <Step title="Review imported recipes">
         Once the import finishes, open **My Recipes** to see your imported library. Check a few recipes to confirm ingredients and steps came through correctly.
@@ -52,7 +62,7 @@ If you're switching to Foryoueats from another recipe manager, you don't have to
         In Copy Me That, go to **Download recipes** and select **HTML (Single .html file plus images)** as the file format. This will produce a ZIP file.
       </Step>
       <Step title="Upload to Foryoueats">
-        In Foryoueats, click your profile icon in the top right and select **Bulk Import/Export Recipes**. Select your app, click **Choose file**, select your ZIP, and click **Import**.
+        In **Bulk Import/Export Recipes**, select **Copy Me That**, tap **Choose a file**, pick your ZIP, and tap **Import**.
       </Step>
       <Step title="Review imported recipes">
         Check **My Recipes** after the import completes to confirm your recipes and images are all present.
@@ -65,10 +75,10 @@ If you're switching to Foryoueats from another recipe manager, you don't have to
 
     <Steps>
       <Step title="Export from Paprika">
-        In Paprika 3, go to **File → Export Recipes**. Set the format to **HTML** and click **Export**. Paprika will create a folder — zip that folder and upload the ZIP file.
+        In Paprika 3, go to **File → Export Recipes**. Set the format to **HTML** and click **Export**. Paprika will create a folder. Zip that folder and upload the ZIP file.
       </Step>
       <Step title="Upload to Foryoueats">
-        In Foryoueats, click your profile icon in the top right and select **Bulk Import/Export Recipes**. Select your app, click **Choose file**, select your ZIP, and click **Import**.
+        In **Bulk Import/Export Recipes**, select **Paprika Recipe Manager 3**, tap **Choose a file**, pick your ZIP, and tap **Import**.
       </Step>
       <Step title="Review imported recipes">
         Open **My Recipes** to confirm your library imported correctly.
@@ -81,26 +91,50 @@ If you're switching to Foryoueats from another recipe manager, you don't have to
   </Accordion>
 
   <Accordion title="Recipe Keeper">
-    Recipe Keeper exports a proprietary ZIP file from its import/export settings.
+    Recipe Keeper exports a ZIP file from its import/export settings.
 
     <Steps>
       <Step title="Export from Recipe Keeper">
         In Recipe Keeper, go to **Settings** and click the **Import/Export** tab. Under **Export recipes to**, click **Recipe Keeper .zip file**.
       </Step>
       <Step title="Upload to Foryoueats">
-        In Foryoueats, click your profile icon in the top right and select **Bulk Import/Export Recipes**. Select your app, click **Choose file**, select your ZIP, and click **Import**.
+        In **Bulk Import/Export Recipes**, select **Recipe Keeper**, tap **Choose a file**, pick your ZIP, and tap **Import**.
       </Step>
       <Step title="Review imported recipes">
         Check **My Recipes** after the import completes to verify your recipes came through correctly.
       </Step>
     </Steps>
   </Accordion>
+
+  <Accordion title="Foryoueats">
+    Re-import recipes you exported from Foryoueats as an Excel (.xlsx) file.
+
+    <Steps>
+      <Step title="Export from Foryoueats">
+        In **Bulk Import/Export Recipes**, open the **Export Recipes** tab and download the Excel file.
+      </Step>
+      <Step title="Upload to Foryoueats">
+        Back on the **Import Recipes** tab, select **Foryoueats**, tap **Choose a file**, pick your .xlsx file, and tap **Import**.
+      </Step>
+      <Step title="Review imported recipes">
+        Open **My Recipes** to confirm your recipes came through. Each recipe keeps its Private setting from the file.
+      </Step>
+    </Steps>
+  </Accordion>
 </AccordionGroup>
+
+## After you upload
+
+Your recipes import in the background, and you'll see "Your recipes are importing and should be done shortly." If some recipes can't be imported, Foryoueats lists each one by row and name with the reason, and the rest still import.
+
+## Who can see imported recipes
+
+Imported recipes follow your **Settings → Share** choice, except Foryoueats files, which keep each recipe's own Private setting. Recipes that came with a source link stay out of the public community. A recipe you typed into your old app yourself, with no link, is treated like any recipe you create in Foryoueats.
 
 ## Using a different app?
 
-If your current recipe manager isn't listed above, contact Foryoueats support. The team regularly adds support for new import formats based on user requests.
+If your current recipe manager isn't listed above, get in touch through our Contact Us page. We regularly add support for new import formats based on requests.
 
 <Tip>
-  As a workaround, most recipe apps let you view individual recipes that you can import using [Import from URL](/recipes/import-from-url) or [Create from image](/recipes/create-from-image).
+  As a workaround, most recipe apps let you view individual recipes that you can import using [Import From a Link](/recipes/import-from-url) or [Create From Image](/recipes/create-from-image).
 </Tip>
