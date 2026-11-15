@@ -42,6 +42,12 @@
         ]
       },
       {
+        "group": "Connected Apps",
+        "pages": [
+          "integrations/claude"
+        ]
+      },
+      {
         "group": "Account",
         "pages": [
           "account/reset-password",
