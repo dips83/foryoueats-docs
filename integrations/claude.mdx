@@ -1,6 +1,6 @@
 ---
 title: "Connect Claude"
-description: "Connect Claude, the AI assistant, to Foryoueats to save recipes and fill your shopping lists, pantry and meal plan from a chat."
+description: "Connect Claude, the AI assistant, to Foryoueats to find and save recipes and fill your shopping lists, pantry and meal plan from a chat."
 tag: "Coming soon"
 ---
 
@@ -8,14 +8,17 @@ tag: "Coming soon"
   Coming soon. Connecting Claude isn't open to everyone yet. This page shows how it will work.
 </Note>
 
-Connect Claude, the AI assistant made by Anthropic, to your Foryoueats account. Then ask Claude in a chat and it adds things straight to Foryoueats:
+Connect Claude, the AI assistant made by Anthropic, to your Foryoueats account. Then ask Claude in a chat and it works with your Foryoueats recipes and adds things straight to Foryoueats:
 
+- **Find your recipes:** ask what you have, get ideas from your own recipes, or have one scaled or changed.
 - **Save a recipe** you made or worked out together to your library.
 - **Add to a shopping list:** items, or all the ingredients of a recipe in your library.
 - **Stock your pantry** from a receipt, a photo or your shopping list.
 - **Plan meals** on your meal planner.
 
-Claude can only add things. It can't change or delete anything in your account.
+Claude can't change or delete anything in your account. A changed recipe is saved as a new one.
+
+Gemini and Muse are coming soon.
 
 ## Connect Claude
 
@@ -41,6 +44,8 @@ Try asking in your own words. For example:
 
 | You want to | Ask Claude |
 | --- | --- |
+| Find a recipe | "What chicken recipes do I have?" |
+| Change a recipe | "Make my lasagna dairy-free and save it as a new recipe." |
 | Save a recipe | "Save this recipe to Foryoueats." |
 | Shop for a recipe | "Make a shopping list from my meatballs recipe." |
 | Add groceries | "Add eggs, milk and 2 lb ground beef to my shopping list." |
@@ -55,10 +60,12 @@ When something needs your choice, like which shopping list to use or which of se
 
 ## What Claude can see
 
-Claude doesn't read your account. It only sees:
+Claude can read the recipes in your library (your own, and those your friends share with you): their names, tags, times, ingredients, steps and notes. It also sees:
 
 - What it just added, with a link to it.
-- The names of your shopping lists, or of the matching recipes in your library, when it asks you to choose.
+- The names of your shopping lists, when it asks you to choose one.
+
+It doesn't see your email address, pantry, meal plan or anything else in your account.
 
 Foryoueats never sees your chats with Claude. See the [Privacy Policy](https://foryoueats.com/privacy-policy#section-8) for details.
 
@@ -73,7 +80,7 @@ Go to **Account Settings → Connected Apps** and tap **Disconnect** next to Cla
     Mention Foryoueats in your request, for example "Add eggs to my Foryoueats shopping list." Check the connector is turned on for the chat in Claude's tools menu.
   </Accordion>
   <Accordion title="Claude seems out of date">
-    In Claude, go to **Customize → Connectors**, open Foryoueats' **⋯** menu and tap **Refresh tools list**.
+    If Claude says it can't see your recipes, or uses an old way of doing something, go to **Customize → Connectors** in Claude, open Foryoueats' **⋯** menu and tap **Refresh tools list**.
   </Accordion>
   <Accordion title="Things are added to the wrong account">
     Claude adds to the account you signed in with when you tapped **Connect**. Disconnect it, sign in to the right account, then connect again.
