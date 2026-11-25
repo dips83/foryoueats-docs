@@ -44,7 +44,8 @@
       {
         "group": "Connected Apps",
         "pages": [
-          "integrations/claude"
+          "integrations/claude",
+          "integrations/gemini"
         ]
       },
       {
